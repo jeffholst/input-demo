@@ -16,7 +16,7 @@
           {{ myValue }}
         </div>
       </template>
-      <v-card>
+      <v-card style="width:300px">
         <v-card-title>
           <div class="text-h2 blink-me">-</div>
           <div class="text-h2">-</div>
@@ -28,80 +28,23 @@
           <div class="text-h2">-</div>
         </v-card-title>
         <v-card-text>
-          <v-row>
-            <v-col>
-              <v-btn @click="add(0)" depressed>
+            <table>
+                <tr>
+                    <td><v-btn @click="add(0)" depressed>
                 0
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(1)" depressed>
+              </v-btn></td>
+              <td> <v-btn @click="add(1)" depressed>
                 1
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(2)" depressed>
+              </v-btn></td>
+              <td> <v-btn @click="add(2)" depressed>
                 2
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(3)" depressed>
-                <v-icon left>
-                  mdi-pencil
-                </v-icon>
-              </v-btn>
-            </v-col>
-          </v-row>
-
-          <v-row>
-            <v-col>
-              <v-btn @click="add(3)" depressed>
+              </v-btn></td>
+              <td> <v-btn @click="add(3)" depressed>
                 3
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(4)" depressed>
-                4
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(5)" depressed>
-                5
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(3)" depressed>
-                <v-icon left>
-                  mdi-pencil
-                </v-icon>
-              </v-btn>
-            </v-col>
-          </v-row>
-
-          <v-row>
-            <v-col>
-              <v-btn @click="add(6)" depressed>
-                6
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(7)" depressed>
-                7
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(8)" depressed>
-                8
-              </v-btn>
-            </v-col>
-            <v-col>
-              <v-btn @click="add(3)" depressed>
-                <v-icon left>
-                  mdi-pencil
-                </v-icon>
-              </v-btn>
-            </v-col>
-          </v-row>
+              </v-btn></td>
+                </tr>
+            </table>
+          
 
           <v-btn @click="clear" depressed>
             clear
@@ -142,7 +85,6 @@ export default {
 <style scoped>
 .myContent {
   position: relative;
-  background: yellow;
   height: 50px;
   width: 65px;
 }

@@ -9,9 +9,21 @@
     </v-app-bar>
 
     <v-main>
-      <InputItem input-label="Countdown" input-value=""/>
-      <br>
-      <InputItem input-label="Countdown" input-value="2"/>
+       <v-container>
+    <v-row>
+      <v-col>
+        jeff
+        </v-col>
+        <v-col>
+          <InputItem input-label="Countdown" input-value=""/>
+        </v-col>
+        <v-col>
+          holst
+        </v-col>
+      </v-row>
+      
+       </v-container>
+
     </v-main>
   </v-app>
 </template>
