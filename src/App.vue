@@ -12,16 +12,60 @@
        <v-container>
     <v-row>
       <v-col>
-        jeff
+        <InputItem input-label="Timer" input-value=""/>
         </v-col>
         <v-col>
-          <InputItem input-label="Countdown" input-value=""/>
+          <InputItem input-label="Rounds" input-value=""/>
         </v-col>
         <v-col>
-          holst
+          <InputItem input-label="Work" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rest" input-value=""/>
         </v-col>
       </v-row>
-      
+      <v-row>
+      <v-col>
+        <InputItem input-label="Timer" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rounds" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Work" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rest" input-value=""/>
+        </v-col>
+      </v-row>
+      <v-row>
+      <v-col>
+        <InputItem input-label="Timer" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rounds" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Work" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rest" input-value=""/>
+        </v-col>
+      </v-row>
+      <v-row>
+      <v-col>
+        <InputItem input-label="Timer" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rounds" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Work" input-value=""/>
+        </v-col>
+        <v-col>
+          <InputItem input-label="Rest" input-value=""/>
+        </v-col>
+      </v-row>
        </v-container>
 
     </v-main>
